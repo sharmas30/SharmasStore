@@ -21,15 +21,27 @@ import ContactScreen from './screens/ContactScreen.js';
 
 
 // DB-1 CONFIGURATIONS START //
+
 var firebaseConfig = {
-    apiKey: "AIzaSyDnEaToHllbHzH-frEw_ucq8X1Yt8sKM7E",
-    authDomain: "temp-img-upload.firebaseapp.com",
-    databaseURL: "https://temp-img-upload.firebaseio.com",
-    projectId: "temp-img-upload",
-    storageBucket: "temp-img-upload.appspot.com",
-    messagingSenderId: "856912233095",
-    appId: "1:856912233095:web:432719ae228c727ceeae22",
+    apiKey: "AIzaSyAP6tOT64NPXnQZJfEwIXFMSBFfYyXO-Dg",
+    authDomain: "sharmastore-951c4.firebaseapp.com",
+    databaseURL: "https://sharmastore-951c4.firebaseio.com",
+    projectId: "sharmastore-951c4",
+    storageBucket: "sharmastore-951c4.appspot.com",
+    messagingSenderId: "1010098807709",
+    appId: "1:1010098807709:web:af553ce9d5a6106bf80574"
 };
+
+
+// var firebaseConfig = {
+//     apiKey: "AIzaSyDnEaToHllbHzH-frEw_ucq8X1Yt8sKM7E",
+//     authDomain: "temp-img-upload.firebaseapp.com",
+//     databaseURL: "https://temp-img-upload.firebaseio.com",
+//     projectId: "temp-img-upload",
+//     storageBucket: "temp-img-upload.appspot.com",
+//     messagingSenderId: "856912233095",
+//     appId: "1:856912233095:web:432719ae228c727ceeae22",
+// };
 
 // DB-2 CONFIGURATIONS START //
 
@@ -84,6 +96,7 @@ const router = () => {
 
     if (screen === HomeScreen)
         showLoading();
+
     const header = document.getElementById("mySidenav");
     header.innerHTML = Header.render()
 

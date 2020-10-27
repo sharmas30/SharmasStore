@@ -15,7 +15,7 @@ export const setUserInfo = ({
     email = '',
     password = '',
     Uphone_number = '',
-    isAdmin = false,
+    isAdmin = '',
 }) => {
     localStorage.setItem('userInfo', JSON.stringify({
         _id,

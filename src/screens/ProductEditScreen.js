@@ -81,7 +81,7 @@ const ProductEditScreen = {
                                     price: price,
                                     image: image,
                                 });
-                            alert("Data updated successfully ");
+                            alert("Product updated successfully ");
                         });
                     }
                 );
